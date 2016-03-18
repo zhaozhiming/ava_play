@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from 'client/components/Footer';
 import { shallow } from 'enzyme';
 import test from 'ava';
 import sinon from 'sinon';
+import Footer from 'client/components/Footer';
 
 const props = {
   todos: [],
