@@ -4,7 +4,7 @@
   "description": "ava_play",
   "scripts": {
     "start": "node src/server/server.js",
-    "test": "eslint src test && NODE_PATH=$NODE_PATH:$PWD/src ava --tap | tap-nyan --serial",
+    "test": "eslint src test && NODE_PATH=$NODE_PATH:$PWD/src ava --tap | tap-nyan",
     "precommit": "eslint src test"
   },
   "keywords": [
